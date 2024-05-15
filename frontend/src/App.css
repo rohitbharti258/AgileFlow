@@ -51,6 +51,19 @@ h1 {
 
 .HeadingName{
   color:#1ec21e;
+  animation-name: anim;
+  animation-duration: 1.5s;
+  animation-delay: 0.2s;
+  animation-direction: normal;
+}
+
+@keyframes anim {
+  from {
+    transform: translateY(-100px);
+  }
+  to {
+    transform: translateY(0px);
+  }
 }
 .container{
   padding:0px 40px;
@@ -79,7 +92,7 @@ h1 {
   background-color: #1ec21e;
   color: #fff;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 10px; 
 }
 
 .add-ticket button:hover {
